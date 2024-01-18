@@ -1,4 +1,4 @@
-package lesson1;
+package Lessons.lesson1;
 
 public class MyFirstProgramm {
 }
