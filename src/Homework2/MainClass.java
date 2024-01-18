@@ -18,6 +18,7 @@ public class MainClass {
         System.out.println("float: " + floatVariable);
         System.out.println("double: " + doubleVariable);
         System.out.println("long: " + longVariable);
+
     }
 }
 
