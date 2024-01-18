@@ -19,6 +19,7 @@ public class MainClass {
         System.out.println("double: " + doubleVariable);
         System.out.println("long: " + longVariable);
 
+
     }
 }
 
