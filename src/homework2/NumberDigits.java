@@ -1,4 +1,4 @@
-package Homework2;
+package homework2;
 
 public class NumberDigits {
     public static void main(String[] args) {

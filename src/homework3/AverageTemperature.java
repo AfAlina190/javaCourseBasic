@@ -1,4 +1,4 @@
-package Homework3;
+package homework3;
 
 public class AverageTemperature {
         public static void main(String[] args) {
@@ -15,4 +15,4 @@ public class AverageTemperature {
         }
     }
 
-
+//Задача 4. Найдите в Интернете данные по температуре в вашем городе за прошедшую неделю. Вычислите среднюю температуру за неделю и выведете ее на печать.
