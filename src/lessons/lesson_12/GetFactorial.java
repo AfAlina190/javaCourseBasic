@@ -1,4 +1,6 @@
 package lessons.lesson_12;
+
+
 public class GetFactorial {
 public static void main(String[] args) {
     System.out.println(ToGetFactorial(6) - ToGetFactorial(4));
