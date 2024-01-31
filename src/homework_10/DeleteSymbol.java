@@ -1,5 +1,11 @@
-package lessons.lesson_12;
+package homework_10;
 
+//Practice Task 1
+
+// Задание 1. У вас есть текст
+//Требуется:
+//убрать все специальные символы, такие "(", ")", "@"
+//(методом replaceAll не пользоваться)
 public class DeleteSymbol {
 
         public static void main(String[] args) {
