@@ -2,10 +2,10 @@ package homework_8;
 
 // Класс Book
 public class Book {
-    public String author;
-    public String title;
-    public int pageCount;
-    public int catalogNumber;
+    private String author;
+    private String title;
+    private int pageCount;
+    private int catalogNumber;
     public boolean inLibrary;
 
     // Конструктор для создания книги с автором и названием
