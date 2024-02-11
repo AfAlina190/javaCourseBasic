@@ -2,7 +2,7 @@ package homework_19;
 
 //1. Напишите программу, которая меняет местами элементы одномерного массива из String в обратном порядке.
 //   Не используйте дополнительный массив для хранения результатов.
-public class task_1 {
+public class Task_1 {
         public static void main(String[] args){
 
             String[] array = { "Houston ", " we ", " have ", " a ", " problem ", " Apollo ", " 13 "};
