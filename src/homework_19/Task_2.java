@@ -14,7 +14,7 @@ public class Task_2 {
 
             int count = 0;
 
-            if(input.length() != 0){
+            if(!input.isEmpty()){
                 count++;
 
                 for (int i = 0; i < input.length(); i++) {

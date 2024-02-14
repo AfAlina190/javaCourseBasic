@@ -7,7 +7,7 @@ class ArrayService {
     public int[] createArrayFromUserInput() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the size of the array:");
+        System.out.println("Введите размер массива: ");
         int size = scanner.nextInt();
 
         return new int[size];
@@ -16,7 +16,7 @@ class ArrayService {
     public int[] fillArrayFromUserInput(int[] array) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter elements for the array:");
+        System.out.println("Введите элементы массива:");
 
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
@@ -47,7 +47,7 @@ class ArrayService {
     }
 
     public void printArray(int[] array) {
-        System.out.println("Sorted array in descending order: " + Arrays.toString(array));
+        System.out.println("Отсортированный массив в порядке убывания: " + Arrays.toString(array));
     }
 }
 
