@@ -1,6 +1,6 @@
 //package lessons.lesson7.studentsWithGroup.students;
 //
-//import lessons.lesson_6.scanner.UserInput;
+//import lessons.lesson_6.homework.homework_6.scanner.UserInput;
 //public class StudentManager {
 //
 //    private UserInput ui;
