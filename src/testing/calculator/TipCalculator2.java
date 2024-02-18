@@ -9,7 +9,7 @@ package testing.calculator;
             double billAmount = scanner.nextDouble();
             int tipPercentage = 15;
             double tipAmount = billAmount * tipPercentage / 100;
-            System.out.printf("Размер чаевых составляет %.3f", tipAmount);
+            System.out.printf("Размер чаевых составляет %.2f", tipAmount);
         }
     }
 
