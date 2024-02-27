@@ -1,8 +1,6 @@
-package testing;
+package testing.car;
 
-import java.io.PrintStream;
-
-public class Programm {
+public class Programme {
 
     public static void main(String[] args) {
 
