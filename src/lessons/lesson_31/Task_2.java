@@ -19,7 +19,7 @@ public class Task_2 {
             String currentWord = iterator.next();
 
             if (currentWord.contains("a")) {
-                iterator.set("$");
+                iterator.set("...");
             }
         }
     }
