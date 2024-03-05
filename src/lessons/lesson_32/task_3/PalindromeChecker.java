@@ -27,8 +27,8 @@ public class PalindromeChecker {
     }
 
     public static void main(String[] args) {
-        String palindromeText = "A man, a plan, a canal, Panama";
-        String nonPalindromeText = "Not a palindrome";
+        String palindromeText = "Тут как тут";
+        String nonPalindromeText = "Не палиндром";
 
         System.out.println(isPalindrome(palindromeText)); // Выводит true
         System.out.println(isPalindrome(nonPalindromeText)); // Выводит false
