@@ -1,4 +1,4 @@
-package lessons.lesson_36.task_practice;
+package lessons.lesson_36.task_practice.task_1;
 
 import java.util.List;
 

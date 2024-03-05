@@ -1,4 +1,4 @@
-package lessons.lesson_36.task_practice;
+package lessons.lesson_36.task_practice.task_1;
 
 public class Pair<T, U> {
     private T first;
