@@ -37,4 +37,46 @@
     и возвращает Optional с первым объектом в списке, который соответствует
     условиям функции проверки.
 
+    ==============================ENGLISH===============================
+
+    1) Write a method that gets a list of strings and returns the first string in the list, if it exists.
+        the first string in the list, if it exists,
+        or an empty string otherwise, using Optional.
+
+    2) Write a method that gets a value of Integer type and
+        returns its doubled value if it is not equal to null,
+        using Optional.
+
+    3) Write a method that gets a list of integers and
+        returns the sum of all numbers in the list, using Optional.
+
+    4) Write a method that gets a value of type String and
+        returns its length if it is not equal to null, using Optional.
+
+    5) Write a method that gets a list of strings and returns the first string in the list if it is not null.
+        the first string in the list if it exists, or throws a NoSuchElementException.
+        NoSuchElementException exception, using Optional.
+
+    6) Write a method that gets a value of type Integer and
+        returns its doubled value if it is not equal to null,
+        or throws an IllegalArgumentException exception using Optional.
+
+    7) Write a method that gets a value of type Double and returns its square root if it is not equal to null or throws an IllegalArgumentException using Optional.
+        its square root if it is not equal to null and is positive, or
+        throws an IllegalArgumentException exception otherwise,
+        using Optional.
+
+    8) Write a method that gets a HashMap, and returns the Optional
+        with the largest value associated with any key in the HashMap.
+
+    9) Write a method that receives a HashSet and a transform function,
+        and returns a HashSet in which all values have been transformed by the
+        conversion function if the HashSet is not empty. If the HashSet is empty,
+        method returns an empty HashSet.
+
+    10) Write a method that gets a list of objects and a validation function,
+        and returns Optional with the first object in the list that matches the
+        the conditions of the validation function.
+
+
 

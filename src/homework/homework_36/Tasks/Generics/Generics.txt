@@ -41,3 +41,50 @@
     имя поля, по которому нужно сортировать список. Используйте Generics
     для обеспечения возможности передачи в метод списка объектов любого
     типа и получения значения поля по имени.
+
+    ===============================ENGLISCH======================================
+    1) Create a Box class to store any objects and implement methods
+        get() and put() methods to read and write objects to the box.
+        Use Generics to ensure type safety.
+
+    2) Write a printList method that takes a list of objects and
+        prints them to the screen. Use Generics to ensure
+        type-safety and the ability to pass a list of objects of any type.
+
+    3) Create a Pair class with two fields, first and second, and implement the
+        getFirst() and getSecond() methods to access these fields.
+        Use Generics to make it possible to store objects of different types in Pair
+        of different types in Pair.
+
+    4) Write a findMax method that accepts an array of objects and returns the
+        the largest of them. Use Generics to provide the ability to
+        to pass an array of objects of any type.
+
+    5) Create a Stack class that implements an array or list-based stack.
+        Use Generics to ensure type-safety and the ability to pass objects of different types to the stack.
+        transfer objects of different types to the stack.
+
+    6) Write a merge method that takes two sorted lists and
+        returns a merged sorted list. Use Generics
+        to ensure that lists of any type can be passed to the method.
+
+    7) Create an Optional class to represent a value that may
+        be absent. Implement the isPresent(), get(), and orElse() methods.
+        Use Generics to allow Optional to store objects of
+        of different types in Optional.
+
+    8) Write a filter method that takes a list of objects and a predicate,
+        and returns a list of objects that satisfy the predicate. Use
+        Generics to make it possible to pass a list of objects of any type into the method
+        of any type into the method.
+
+    9) Create a Map class to store key-value pairs. Implement the methods
+        put(), get() and remove() methods. Use Generics to ensure
+        type-safety and the ability to store objects of different types in Map.
+
+    10) Write a sortByProperty method that takes a list of objects and the
+        the name of the field to sort the list by. Use Generics
+        to ensure that you can pass a list of objects of any
+        of any type and get the field value by name.
+
+

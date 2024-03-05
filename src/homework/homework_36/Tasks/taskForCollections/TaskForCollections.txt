@@ -1,0 +1,118 @@
+проще:
+
+   1 Создать ArrayList из 10 элементов, отсортировать его по возрастанию и вывести на экран.
+
+   2 Создать LinkedList из 10 элементов, удалить элементы с индексами, которые хранятся другой коллекции в Set и вывести на экран, то что останется от List.
+
+   3 Создать HashMap, где ключом является число типа Integer, а значением - его квадрат. Вывести на экран все элементы HashMap.
+
+   4 Создать HashSet, добавить в него несколько строк и проверить, содержит ли он определенную строку.
+
+   5 Создать TreeMap, где ключом является строка, а значением - ее длина. Вывести на экран все элементы TreeMap.
+
+   6 Создать PriorityQueue из 10 элементов типа Integer, добавить несколько элементов, извлечь минимальный элемент и вывести на экран.
+
+   7 Создать Stack, добавить в него несколько элементов. Проверить есть ли в коллекции заданный элемент. Если есть,то найти его глубину и вывести на экран.
+
+   8 Создать ArrayDeque, добавить в него несколько элементов с каждой стороны, извлечь элементы с одной из сторон и вывести на экран.
+
+   9 Создать TreeMap, где ключом является число типа Integer, а значением - его факториал. Вывести на экран все элементы TreeMap.
+
+   10 Создать HashSet из нескольких элементов, создать LinkedList из тех же элементов и вывести на экран элементы LinkedList в том порядке, в котором они были добавлены.
+
+--------
+
+   Несколько сложнее:
+
+    1   Создать класс Student со свойствами name и grade (оценка), затем создать список ArrayList,
+        заполнить его несколькими объектами Student и отсортировать список по оценке в порядке убывания.
+
+    2   Создать отображение TreeMap, где ключом является объект Date (дата), а значением - список строк.
+        Затем добавить несколько строк в список для каждой даты и вывести все элементы отображения на консоль в порядке возрастания даты.
+
+    3   Создать множество LinkedHashSet и добавить в него несколько объектов класса Person, у которых есть свойства name и age.
+        Затем перебрать все элементы множества и вывести на консоль только тех людей, возраст которых меньше 30 лет.
+
+    4   Создать очередь PriorityQueue и добавить в нее несколько элементов, у которых есть свойства name и priority.
+        Затем извлечь элементы из очереди в порядке приоритета и вывести их на консоль.
+
+    5   Создать класс Book со свойствами title, author и year (год издания), затем создать список LinkedList, заполнить
+        его несколькими объектами Book и удалить из списка все книги, которые были изданы до 2000 года.
+
+    6   Создать множество TreeSet и добавить в него несколько объектов класса Point, у которых есть свойства x и y.
+        Затем перебрать все элементы множества и вывести на консоль только те точки, у которых x > y.
+
+    7   Создать отображение LinkedHashMap, где ключом является объект Time (время), а значением - список строк.
+        Затем добавить несколько строк в список для каждого времени и вывести все элементы отображения на консоль в порядке возрастания времени.
+
+    8  Создать множество HashSet и добавить в него несколько строк. Затем создать второе множество и добавить в него
+        те же самые строки, но в другом порядке. Затем вывести на консоль только те строки, которые есть в обоих множествах.
+
+    9   Создать отображение HashMap, где ключом является объект класса Country, а значением - список строк
+        (названия городов в этой стране). Затем добавить несколько городов для каждой страны и вывести все страны на консоль в алфавитном порядке.
+
+    10  Создать класс Employee со свойствами name, department и salary, затем создать отображение TreeMap,
+        где ключом является отдел, а значением - список сотрудников, работающих в этом отделе.
+        Затем добавить несколько сотрудников в каждый отдел и вывести на консоль среднюю зарплату для каждого отдела.
+
+        ==============================================ENGLISH============================================
+
+        simpler:
+
+           1 Create an ArrayList of 10 elements, sort it in ascending order and display it on the screen.
+
+           2 Create a LinkedList of 10 elements, remove elements with indices that are stored in another collection in Set and display what remains of the List.
+
+           3 Create a HashMap where the key is a number of type Integer and the value is its square. Display all the elements of the HashMap.
+
+           4 Create a HashSet, add some strings to it, and check if it contains a particular string.
+
+           5 Create a TreeMap where the key is a string and the value is its length. Display all the elements of the TreeMap.
+
+           6 Create a PriorityQueue of 10 elements of type Integer, add some elements, extract the minimum element and display it.
+
+           7 Create a Stack, add some elements to it. Check if there is a given element in the collection. If there is, find its depth and display it on the screen.
+
+           8 Create an ArrayDeque, add a few elements on each side of it, extract the elements from one of the sides and display it on the screen.
+
+           9 Create a TreeMap where the key is a number of type Integer and the value is its factorial. Display all the elements of the TreeMap on the screen.
+
+           10 Create a HashSet of several elements, create a LinkedList of the same elements, and display the LinkedList elements in the order in which they were added.
+
+        --------
+
+           Somewhat more complicated:
+
+            1 Create a Student class with name and grade properties, then create an ArrayList,
+                populate it with several Student objects and sort the list by grade in descending order.
+
+            2 Create a TreeMap mapping where the key is a Date object and the value is a list of rows.
+                Then add multiple rows to the list for each date and display all the items in the mapping on the console in date order.
+
+            3 Create a LinkedHashSet set and add to it several objects of the Person class that have name and age properties.
+                Then search through all the elements of the set and display only those people whose age is less than 30 years old on the console.
+
+            4 Create a PriorityQueueue and add to it several elements that have the name and priority properties.
+                Then retrieve the items from the queue in priority order and display them on the console.
+
+            5 Create a Book class with title, author, and year properties, then create a LinkedList, populate it with several Book objects, and remove them from the queue.
+                with several Book objects and remove all books published before the year 2000 from the list.
+
+            6 Create a TreeSet set and add to it several objects of the Point class that have x and y properties.
+                Then loop through all the elements of the set and display on the console only those points that have x > y.
+
+            7 Create a LinkedHashMap mapping where the key is a Time object and the value is a list of strings.
+                Then add multiple rows to the list for each time and display all the items in the mapping on the console in ascending order of time.
+
+            8 Create a HashSet set and add some strings to it. Then create a second set and add to it
+                the same rows, but in a different order. Then display on the console only the strings that are in both sets.
+
+            9 Create a HashMap mapping where the key is an object of class Country, and the value is a list of strings
+                (the names of the cities in that country). Then add multiple cities for each country and display all the countries on the console in alphabetical order.
+
+            10 Create an Employee class with name, department and salary properties, then create a TreeMap mapping,
+                where the key is the department and the value is the list of employees working in that department.
+                Then add several employees to each department and display the average salary for each department on the console.
+        *** Translated with www.DeepL.com/Translator (free version) ***
+
+
