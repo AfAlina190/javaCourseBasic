@@ -3,35 +3,31 @@ package homework.homework_33.task_3;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class TourCollection {
-    private Queue<String> requests;
-    private int maxSize;
-
-    public TourCollection(int maxSize) {
-        this.requests = new LinkedList<>();
+public class TourCollection{
+    Queue<String> requests;
+    int maxSize;
+    public TourCollection(int maxSize) {    //- Конструктор, принимающий `maxSize`
         this.maxSize = maxSize;
+        this.requests = new LinkedList<>(); // и инициализирующий коллекцию.
     }
-
-    public void addRequest(String request) {
-        if (requests.size() < maxSize) {
-            requests.add(request);
-            System.out.println("Request added: " + request);
+    public void addRequest(String request){
+        if (requests.size() < maxSize){
+            requests.offer(request);
+            System.out.println("Request: "+request+" is added");
         } else {
-            System.out.println("Tour requests collection is full. Cannot add request: " + request);
+            System.out.println("Request collection is full");
         }
     }
-
-    public void processRequest() {
-        if (!requests.isEmpty()) {
-            String processedRequest = requests.poll();
-            System.out.println("Processing request: " + processedRequest);
-        } else {
-            System.out.println("Tour requests collection is empty. No requests to process.");
+    public void processRequest(){
+        if (!requests.isEmpty()){
+            System.out.println("Request "+requests.poll()+" is processed");
+        }else {
+            System.out.println("Request collection is empty");
         }
     }
-
-    public int getQueueSize() {
-        return requests.size();
+    public Integer getQueueSize(){
+        int currentQueueSize = requests.size();
+        return currentQueueSize;
     }
 
     public Queue<String> getRequests() {
@@ -42,4 +38,3 @@ class TourCollection {
         return maxSize;
     }
 }
-
